@@ -40,7 +40,6 @@ class DB
         //Create PDO Connection with the dbconfig data
         $this->_conn = new PDO($this->_dsn, $username, $password);
 
-
         return $this->_conn;
     }
 

@@ -11,21 +11,21 @@
  * @link     https://stbensonimoh.com
  */
 // Database Configuration
-$host='localhost';
-$db = 'test';
-$username = 'root';
-$password = 'sweedypie';
+$host='';
+$db = '';
+$username = '';
+$password = '';
 // SMS Configuration
-$smstoken = 'CQxlc2gLTWCUUdsunjsTrqb19FP8QcZ0BD3HybQWATlOg4t9QQ1aP40I73sL';
+$smstoken = '';
 // Email Configuration
-$emailHost = 'awlo.org';
-$emailUsername = 'volunteer@awlo.org';
-$emailPassword = '//defaultp++';
+$emailHost = '';
+$emailUsername = '';
+$emailPassword = '';
 $SMTPDebug = 0;
 $SMTPAuth = true;
 $SMTPSecure = 'ssl';
 $Port = 465;
 // API credentials from https://login.sendpulse.com/settngs/#api
-$apiUserId = 'c985aad3e046bc0f7e5f51ebf921cc03';
-$apiSecret = 'aa7ae8f1b195db11ef110ca1c838768a';
+$apiUserId = '';
+$apiSecret = '';
 define('PATH_TO_ATTACH_FILE', __FILE__);

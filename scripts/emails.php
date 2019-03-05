@@ -66,7 +66,7 @@ $emailBodyOrganisation = "<table style='background-color: #d5d5d5;' border='0' w
 <tr>
 <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>
 <p>Dear Admin,</p>
-<p>Someone has Volunteered for the AWLCRwanda2019. Below are the details:</p>
+<p>Someone has Volunteered for the AWLCRwanda2019 as a Social Media Volunteer. Below are the details:</p>
 <p>
 <strong>First Name: </strong> {$firstName} <br>
 <strong>Middle Name: </strong> {$middleName} <br>
@@ -74,10 +74,10 @@ $emailBodyOrganisation = "<table style='background-color: #d5d5d5;' border='0' w
 <strong>Email: </strong> {$email} <br>
 <strong>Phone Number: </strong> {$phone} <br>
 <strong>Current Location: </strong> {$location} <br>
-<strong>LinkedIn Handle: </strong> {$linkedin} <br>
-<strong>Twitter Handle: </strong> {$twitter} <br>
-<strong>Instagram Handle: </strong> {$instagram} <br>
-<strong>Facebook Handle: </strong> {$facebook} <br>
+<strong>LinkedIn Handle: </strong> {$linkedinHandle} <br>
+<strong>Twitter Handle: </strong> {$twitterHandle} <br>
+<strong>Instagram Handle: </strong> {$instagramHandle} <br>
+<strong>Facebook Handle: </strong> {$facebookHandle} <br>
 <strong>Which of these social media handles are you most conversant with? : </strong> {$familiarHandles} <br>
 <strong>Why do you want to volunteer?: </strong> {$reasonForVolunteering} <br>
 </p>

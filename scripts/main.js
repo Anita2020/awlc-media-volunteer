@@ -77,13 +77,18 @@ document.addEventListener('DOMContentLoaded', e => {
                     return response.json()
                 })
                 .then(data => {
-                    console.log(data)
-                    // if (data === 'success') {
-                    //     swal('SignUp Successful', 'Your signup was submitted successfully!', 'success')
-                    //     setTimeout(function () {
-                    //         window.location = 'https://awlo.org/awlc/inviteafriend'
-                    //     }, 3000)
-                    // }
+                    if (data === 'user_exists') {
+                        swal('Already Signed Up!', 'You have already signed up to volunteer.', 'warning')
+                        setTimeout(() => {
+                            window.location = 'https://awlo.org/awlc/inviteafriend'
+                        }, 3000)
+                    } else
+                    if (data === 'success') {
+                        swal('Sign Up Successful', 'Your volunteer signup was submitted successfully!', 'success')
+                        setTimeout(function () {
+                            window.location = 'https://awlo.org/awlc/inviteafriend'
+                        }, 3000)
+                    }
                 })
                 .catch(error => {
                     console.log('The Request Failed', error)
