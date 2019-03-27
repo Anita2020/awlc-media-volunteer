@@ -17,7 +17,7 @@ $emailBodyVolunteer = "<table style='background-color: #d5d5d5;' border='0' widt
 <td style='color: #000; font-size: 12pt; font-family: Helvetica; font-weight: normal; line-height: 15pt; padding: 40px 40px 80px 40px;' colspan='2' valign='top'>Dear {$firstName} {$lastName},
 <p>Thank you for choosing to volunteer for the #AWLCRwanda2019, and sharing your good heart with us. You may not know this but you are real MVP.</p>
 <p>The data you submitted has been submitted into our database.</p>
-<p>Kindly click <a href='https://join.slack.com/t/awlo/shared_invite/enQtNTUzOTczMjc1MzMyLWM0OTVhM2NmZmI0Y2I1MDEzZWMzNDczNzUwYmRmMmQ1MWIwNjE0MDE4MmFjMjlhN2U3MTQ5MDJkNWMxZTliOTk'>HERE</a> to join our slack channel where you can meet with other volunteers and get instructions/information about the next steps on your volunteer journey.</p>
+<p>Kindly click <a href='https://join.slack.com/t/awlo/shared_invite/enQtNTkwNTY1MDU4MDcxLTM1ODA0OGE1NDg2ZWIxZDUxZmE1M2U1NDliYWY3NzAxNGQyNmIyMTg2MTJjOWQ2MWJhNjYzNjdjNWQxMWVhY2U'>HERE</a> to join our slack channel where you can meet with other volunteers and get instructions/information about the next steps on your volunteer journey.</p>
 <p>We look forward to working together with you.</p>
 <p>Welcome to the AWLO Team,</p>
 <p><img src='https://stbensonimoh.com/email/sign_rosette_blue_ink.png' height='50px' /></p>
